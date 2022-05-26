@@ -1,0 +1,18 @@
+
+RewriteOptions inherit
+<IfModule mod_rewrite.c>
+		RewriteEngine On
+        RewriteCond %{HTTP_HOST} ^davidosouthwood.binarytorch.com$ [OR]
+        RewriteCond %{HTTP_HOST} ^www.davidosouthwood.binarytorch.com$ [OR]
+        RewriteCond %{HTTP_HOST} ^davidosouthwood.com$
+        RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+        RewriteRule ^(.*)$ http://www.davidosouthwood.com/ [R=301,L]
+
+        RedirectMatch ^/davidosouthwood.com/(.*)$ http://www.davidosouthwood.com/$1
+</IfModule>
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^rebelfoxgames\.com\/\(\.\*\)\/?(.*)$ "http\:\/\/www\.rebelfoxgames\.com\/$1" [R=301,L]

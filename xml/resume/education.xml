@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<education>
+	<college_name>The Art Insitute of Pittsburgh,</college_name>
+	<college_location>Pittsburgh, PA</college_location>
+	<college_graduation>Graduating December 2012</college_graduation>
+	<college_degree>Associate of Science in</college_degree>
+	<college_field>Web Design and Interacrive Media</college_field>
+	<college_name2>Community College of Allegheny County,</college_name2>
+	<college_location2>Pittsburgh, PA</college_location2>
+	<college_graduation2>In progress</college_graduation2>
+	<college_degree2>Associate of Science in</college_degree2>
+	<college_field2>Software Development</college_field2>
+</education>

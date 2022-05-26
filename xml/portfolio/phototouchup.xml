@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phototouchup>
+	<title>USS Princeton</title>
+	<link><![CDATA[<img id="img" src="files/photo_before_after.jpg" >]]></link>
+	<desc><![CDATA[<a href="files/photo_before.jpg" target="_blank">Click here</a> to see the image before touch up.<br /><a href="files/photo_after.jpg" target="_blank">click here</a> to see the image after touch up.<br />This photo was done for my Digital Image Manipulation class. <br />The image is of the USS Princeton that my mother's significant other servered on. <br /> I took the original image and restored it to its current condition using Adobe Photoshop.]]>
+	</desc>
+</phototouchup>

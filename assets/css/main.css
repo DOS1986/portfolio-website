@@ -1,0 +1,150 @@
+/* ==========================================================================
+ Base styles: opinionated defaults
+ ========================================================================== */
+@font-face {
+    font-family: 'PC Senior Regular';
+    src: url('fonts/pcsenior-webfont.eot');
+    src: url('fonts/pcsenior-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pcsenior-webfont.woff') format('woff'),
+         url('fonts/pcsenior-webfont.ttf') format('truetype'),
+         url('fonts/pcsenior-webfont.svg#pc_seniorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+ 
+html, button, input, select, textarea {
+	color: #00FF00;
+	border: none;
+	font-family: "PC Senior Regular", fixedsys, LucidaTerminal, monospace;
+	font-size: x-small;
+}
+
+body {
+	background-color:#000000;
+	font-size: 1em;
+	line-height: 1.4;
+	font-family: "PC Senior Regular", fixedsys, LucidaTerminal, monospace;
+	font-size: x-small;
+}
+
+#container {
+	width:100%; 
+	float:left;
+}
+
+#header {
+	text-align:center;
+}
+
+#header hr {
+	display: block; 
+	height: 1px;     
+	border: 0; 
+	border-top: 2px solid #00ff00;     
+	/*margin: 1em 0; 
+	padding: 0; */
+}
+
+#header-left {
+	float:left;
+	width:15%;
+	margin-top:32px;
+	margin-left:65px;
+}
+
+#header-center {
+	font-size:64px;
+	margin:0 auto;
+	position:relative;
+	width:33%;
+	
+}
+
+#header-center a img{
+    border:0;
+    outline:none;
+}
+
+#header-right {
+	float:right;
+	width:15%;
+	margin-top:-60px;
+	margin-right:65px;
+}
+#header-major {
+	width:100%;
+}
+#header-phone {
+	width:100%;
+}
+#header-message {
+	width:100%;
+}
+#header-message2 {
+	width:100%;
+}
+
+#outputContainer {
+	float:left;
+	width:100%;
+}
+
+#inputContainer {
+	width:100%;
+	float:left;
+}
+
+#outputContainer a {
+	color:#00ff00;
+	
+}
+
+#portfolio-span {
+	visibility:hidden;
+}
+
+#resume-span {
+	visibility:hidden;
+}
+
+#about-span {
+	visibility:hidden;
+}
+
+#contact-span {
+	visibility:hidden;
+}
+
+#portfolio-span2 {
+	visibility:hidden;
+}
+
+#resume-span2 {
+	visibility:hidden;
+}
+
+#about-span2 {
+	visibility:hidden;
+}
+
+#contact-span2 {
+	visibility:hidden;
+}
+
+a {
+	color:#00ff00;
+}
+
+/* ==========================================================================
+   Output container styling
+ ========================================================================== */
+
+.entryBox {
+    position:absolute;
+    bottom:0px;
+    left:-300px;
+}
+
+img{
+    vertical-align: bottom;
+}

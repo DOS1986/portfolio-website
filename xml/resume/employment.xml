@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<employment>
+	<job_name>Coraopolis Library, </job_name>
+	<job_location>Coraopolis, Pa</job_location>
+	<job_worked>2012 to 2012</job_worked>
+	<job_title>Freelance Programmer</job_title>
+	<task1>Customized WordPress to integrate themes</task1>
+	<task2>Improved functionality of the website</task2>
+	<task3>Worked on the front and back end programming</task3>
+	<job_name2>Zola Design, </job_name2>
+	<job_location2>Pittsburgh, PA</job_location2>
+	<job_worked2>2010 to 2011</job_worked2>
+	<job_title2>Freelance Programmer</job_title2>
+	<task4>Customized WordPress to integrate themes</task4>
+	<task5>Improved functionality of the websites by enhancing the code</task5>
+	<task6>Wrote XHTML and CSS websites</task6>
+	<job_name3>The Art Institute of Pittsburgh, </job_name3>
+	<job_location3>Pittsburgh, PA</job_location3>
+	<job_worked3>2005 to 2008</job_worked3>
+	<job_title3>Student worker for the IT/Helpdesk Department</job_title3>
+	<task7>Installed software on both Mac/PC's in student computer labs</task7>
+	<task8>Solved hardware and software issues as reported</task8>
+	<task9>New position created in the IT department to facilitate my skills in IT</task9>
+</employment>

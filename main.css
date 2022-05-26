@@ -1,0 +1,610 @@
+/* ==========================================================================
+ Base styles: opinionated defaults
+ ========================================================================== */
+@font-face {
+	font-family: PC Senior;
+	src: url("pcsenior.ttf");
+}
+
+html, button, input, select, textarea {
+	color: #00FF00;
+	border: none;
+	font-family: "PC Senior";
+	font-size: x-small;
+}
+
+body {
+	background-color:#000000;
+	font-size: 1em;
+	line-height: 1.4;
+	font-family: "PC Senior";
+	font-size: x-small;
+}
+
+#container {
+	width:100%; 
+	float:left;
+}
+
+#header {
+	text-align:center;
+}
+
+#header hr {
+	display: block; 
+	height: 1px;     
+	border: 0; 
+	border-top: 2px solid #00ff00;     
+	/*margin: 1em 0; 
+	padding: 0; */
+}
+
+#header-left {
+	float:left;
+	width:33%;
+	margin-top:10px;
+	background-color:#FFF;
+}
+
+#header-center {
+	font-size:large;
+	margin:0 auto;
+	position:relative;
+	width:33%;
+	background-color:#CCC;
+}
+
+#header-right {
+	float:right;
+	width:33%;
+	margin-top:-15px;
+	background-color:#999;
+}
+
+#header-message {
+	width:100%;
+	background-color:#666;
+}
+
+#outputContainer {
+	float:left;
+	width:100%;
+}
+
+#inputContainer {
+	width:100%;
+	float:left;
+}
+
+a {
+	color:#00ff00;
+}
+
+/* ==========================================================================
+   Portfolio styles
+ ========================================================================== */
+ 
+#portfolio {
+	width:100%;
+	background-color:#06F;
+}
+
+#nav {
+	text-align:center;
+	background-color:#06F;
+}
+
+#content{
+	background-color: #06F;
+	color:#FFF;
+	padding-top:20px;
+	visibility: hidden;
+	text-align: center;
+	width: 100%;
+}
+
+#nav ul {
+	display: inline-block;
+	margin:0;
+	padding:0;
+	/* For IE, the outcast */
+	zoom:1;
+	*display:inline;
+}
+
+#nav li {
+	float:left;
+	list-style-type: none;
+	padding: 2px 5px;
+	border: 1px solid black;
+	background-color:#CCC;
+}
+
+#nav li a {
+	text-decoration: none;
+	font-family: "PC Senior";
+	color: #000000;
+}
+
+#nav li a:hover {
+
+}
+/* ==========================================================================
+   Resume Container Styles
+ ========================================================================== */
+ 
+#resume {
+	text-align:center;	
+	border: 4px double #FFFFFF; 
+	margin-top: 1em;
+	width:100%;
+}
+
+#resume a{
+	color:#FFF;
+}
+
+#resume h1 {
+	font-size: 12px; 
+}
+
+#resume h1 span {
+	display:inline; 
+	background:#000; 
+	padding: 5px 10px; 
+	position:relative; top: -1.3em;	
+}
+
+#resume_about {
+	text-align:center;
+	width: 40%;
+	color:#FFF;
+	border: 1px solid white;
+	margin: 0 auto;
+	/*margin: -1px -1px -1px 50px;*/
+}
+
+#resume_about h1 {
+	font-size: 12px; 
+	/*text-align:center;*/	
+}
+
+#resume_about h1 span {
+	display:inline; 
+	background:#000; 
+	padding: 5px 10px; 
+	position:relative; top: -1.3em;	
+}
+
+#resume_about a {
+	color:#FFF;
+	font-family: "PC Senior";
+}
+
+#resume_skills {
+	text-align:center;
+	width: 40%;
+	color:#FFF;
+	border: 1px solid white;
+	/*padding-bottom:136px;*/
+	margin: 0 auto;
+	/*margin: -336px 45% 200px;*/
+}
+
+#resume_skills h1 {
+	font-size: 12px; 
+	/*text-align:center;*/	
+}
+
+#resume_skills h1 span {
+	display:inline; 
+	background:#000; 
+	padding: 5px 10px; 
+	position:relative; top: -1.3em;	
+}
+
+#resume_education {
+	text-align:center;
+	width: 90%;
+	color:#FFF;
+	border: 1px solid white;
+	margin: 0 auto;
+	/*margin: -1px -1px -1px 50px;*/
+}
+
+#resume_education h1 {
+	font-size: 12px; 
+	/*text-align:center;*/	
+}
+
+#resume_education h1 span {
+	display:inline; 
+	background:#000; 
+	padding: 5px 10px; 
+	position:relative; top: -1.3em;	
+}
+
+#resume_employment {
+	text-align: center;
+	width: 90%;
+	color: #FFF;
+	border: 1px solid white;
+	margin: 0 auto 20px;
+}
+
+#resume_employment h1 {
+	font-size: 12px; 
+	/*text-align:center;*/	
+}
+
+#resume_employment h1 span {
+	display:inline; 
+	background:#000; 
+	padding: 5px 10px; 
+	position:relative; top: -1.3em;	
+}
+
+#resume_employment li {
+	margin-left:150px;
+}
+
+#about_me {
+	text-align: center;
+	width: 90%;
+	color: #FFF;
+	border: 1px solid white;
+	margin: 0 auto 20px;
+}
+
+#about_me h1 {
+	font-size: 12px; 
+	/*text-align:center;*/	
+}
+
+#about_me h1 span {
+	display:inline; 
+	background:#000; 
+	padding: 5px 10px; 
+	position:relative; top: -1.3em;	
+}
+#about_me a{
+	color:#09C;
+}
+
+/* ==========================================================================
+   Resume About Me Styles
+ ========================================================================== */
+#name {
+	text-align:center;
+}
+
+#profession {
+	text-align:center;
+}
+
+
+#phone {
+	text-align:center;
+}
+
+
+
+#email {
+	text-align:center;
+}
+
+#googleplus {
+
+}
+
+#Facebook {
+
+}
+
+#linkedin {
+
+}
+/* ==========================================================================
+   Resume Skills Styles
+ ========================================================================== */
+#lbl_software {
+	text-decoration:underline;
+	width: 50%;
+	float: left;
+/*	text-align:right;*/
+}
+
+#lbl_coding {
+	text-decoration:underline;
+	width:50%;
+	float:right;
+/*	text-align:left;*/
+}
+
+#software1 {
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+
+#coding1 {
+	width:50%;
+	float:right;
+	text-align:center;
+}
+
+#software2 {
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+
+#coding2 {
+	width:50%;
+	float:right;
+	text-align:center;
+}
+
+#software3 {
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+
+#coding3 {
+	width:50%;
+	float:right;
+	text-align:center;
+}
+
+#software4 {
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+
+#coding4 {
+	width:50%;
+	float:right;
+	text-align:center;
+}
+#software5 {
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+
+#coding5 {
+	width:50%;
+	float:right;
+	text-align:center;
+}
+
+#software6 {
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+
+#coding6 {
+	width:50%;
+	float:right;
+	text-align:center;
+}
+
+/*
+==========================================================================
+   Resume Employment Styles
+ ========================================================================== */
+ 
+#college_name {
+	width: 35%;
+	float: left;
+	text-align:right;
+}
+
+#college_location {
+	margin-left:10px;
+	width:24%;
+	float:left;
+	text-align:left;
+}
+
+#college_graduation {
+	width: 40%;
+	float: left;
+	text-align:center;
+}
+
+#college_degree {
+	width:26%;
+	float:left;
+	text-align:right;
+	margin-left:30px;
+}
+
+#college_field {
+	margin-left:10px;
+	width: 50%;
+	float:left;
+	text-align:left;
+}
+
+#college_name2 {
+	width:40%;
+	margin-left:25px;
+	float: left;
+	text-align:right;
+}
+
+#college_location2 {
+	margin-left:10px;
+	width:17%;
+	float:left;
+	text-align:left;
+}
+
+#college_graduation2 {
+	width: 28%;
+	float: left;
+	text-align:center;
+}
+
+#college_degree2 {
+	width:26%;
+	float:left;
+	text-align:right;
+	margin-left:30px;
+}
+
+#college_field2 {
+	margin-left:10px;
+	width: 50%;
+	float:left;
+	text-align:left;
+}
+/*
+==========================================================================
+   Resume Employment Styles
+ ========================================================================== */
+ 
+#job_name {
+	width: 25%;
+	float: left;
+	text-align:right;
+}
+
+#job_location {
+	margin-left:10px;
+	width:24%;
+	float:left;
+	text-align:left;
+}
+
+#job_worked {
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+
+#job_title {
+	width:26%;
+	float:left;
+	text-align:right;
+
+}
+
+#task1 {
+	width: 50%;
+
+	text-align:left;
+}
+
+#task2 {
+	width:50%;
+
+	text-align:left;
+}
+
+#task3 {
+	width: 50%;
+
+	text-align:left;
+}
+
+#job_name2 {
+	width: 18%;
+	float: left;
+	text-align:right;
+}
+
+#job_location2 {
+	margin-left:10px;
+	width:30%;
+	float:left;
+	text-align:left;
+}
+
+#job_worked2 {
+	width: 50%;
+	float: left;
+	text-align:center;
+}
+
+#job_title2 {
+	width:25%;
+	float:left;
+	text-align:right;
+	margin-left:10px;
+}
+
+#task4 {
+	width: 50%;
+	text-align:left;
+}
+
+#task5 {
+	width:60%;
+	text-align:left;
+}
+
+#task6 {
+	width: 50%;
+	text-align:left;
+}
+
+#job_name3 {
+	width: 35%;
+	float: left;
+	text-align:right;
+	margin-left:29px;
+}
+
+#job_location3 {
+	margin-left:10px;
+	width:24%;
+	float:left;
+	text-align:left;
+}
+
+#job_worked3 {
+	width: 24%;
+	float: left;
+	text-align:center;
+}
+
+#job_title3 {
+	width:50%;
+	float:left;
+	text-align:left;
+	margin-left:80px;
+}
+
+#task7 {
+	width: 60%;
+	text-align:left;
+}
+
+#task8 {
+	width:50%;
+	text-align:left;
+}
+
+#task9 {
+	width: 80%;
+	text-align:left;
+}
+
+/* ==========================================================================
+   Output container styling
+ ========================================================================== */
+
+.entryBox {
+    position:absolute;
+    bottom:0px;
+    left:-300px;
+}
+
+img{
+    vertical-align: bottom;
+}
